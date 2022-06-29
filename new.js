@@ -3,7 +3,7 @@ const FRAME_DELAY = 2 // höhere Zahl = niederigere Frame Rate
 const SPEED = 2 // höhere Zahl = schneller
 
 const FILE_PREFIX = "../heart1/jpg/heart1"
-const FILE_PREFIX_MOBILE = "../heart1/jpg/heart1"
+const FILE_PREFIX_MOBILE = "public/jpg/heart1"
 
 // Init
 const IS_TOUCH = 'ontouchstart' in window || navigator.msMaxTouchPoints > 0
