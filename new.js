@@ -112,9 +112,9 @@ const updateImage = index => {
 
 function updateSize() {
   if (IS_MOBILE) {
-    return Math.min(window.innerWidth, window.innerHeight + 200)
+    return Math.max(window.innerWidth, window.innerHeight + 200)
   } else {
-    return Math.min(window.innerWidth, window.innerHeight)
+    return Math.max(window.innerWidth, window.innerHeight)
   }
 }
 
